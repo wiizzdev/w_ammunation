@@ -75,17 +75,11 @@ function ammunations() -- function qui fait le menu
                         end
                     })
                     RageUI.Button("Pétoire", "Acheter un pétoire", {RightLabel = config.prixarmeal2}, true, { -- bouton du menu armes létales
-                        onActive = function()
-                            DisplayRadar(false) -- ne pas afficher le radar pendant la camera
-                        end,
                         onSelected = function() -- si le joueur sélectionne ce bouton
                             TriggerServerEvent('wdev:achatPétoire') -- éxécuter l'event achatPétoire => personnalisable dans le server.lua
                         end
                     })
                     RageUI.Button("Vintage", "Acheter un vintage", {RightLabel = config.prixarmeal3}, true, { -- bouton du menu armes létales
-                        onActive = function()
-                            DisplayRadar(false) -- ne pas afficher le radar pendant la camera
-                        end,
                         onSelected = function() -- si le joueur sélectionne ce bouton
                             TriggerServerEvent('wdev:achatVintage') -- éxécuter l'event achatVintage => personnalisable dans le server.lua
                         end
@@ -106,9 +100,6 @@ function ammunations() -- function qui fait le menu
                         end
                     })
                     RageUI.Button("Poingt Américain", "Acheter un poingt américain", {RightLabel = config.prixarmeab3}, true, { -- bouton du menu armes blanches
-                        onActive = function()
-                            DisplayRadar(false) -- ne pas afficher le radar pendant la camera
-                        end,
                         onSelected = function() -- si le joueur sélectionne ce bouton
                             TriggerServerEvent('wdev:achatPoingt') -- éxécuter l'event achatPoingt => personnalisable dans le server.lua
                         end
@@ -121,17 +112,11 @@ function ammunations() -- function qui fait le menu
                         end
                     })
                     RageUI.Button("Gilet Pare-Balles", "Acheter un gilet pare-balles", {RightLabel = config.prixitemac2}, true, { -- bouton du menu accessoires
-                        onActive = function()
-                            DisplayRadar(false) -- ne pas afficher le radar pendant la camera
-                        end,
                         onSelected = function() -- si le joueur sélectionne ce bouton
                             TriggerServerEvent('wdev:achatKevlar') -- éxécuter l'event achatKevlar => personnalisable dans le server.lua
                         end
                     })
                     RageUI.Button("Parachute", "Acheter un parachute", {RightLabel = config.prixitemac3}, true, { -- bouton du menu accessoires
-                        onActive = function()
-                            DisplayRadar(false) -- ne pas afficher le radar pendant la camera
-                        end,
                         onSelected = function() -- si le joueur sélectionne ce bouton
                             TriggerServerEvent('wdev:achatParachute') -- éxécuter l'event achatParachute => personnalisable dans le server.lua
                         end
