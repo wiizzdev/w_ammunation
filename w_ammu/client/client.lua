@@ -92,9 +92,6 @@ function ammunations() -- function qui fait le menu
                         end
                     })
                     RageUI.Button("Batte de Baseball", "Acheter une batte de baseball", {RightLabel = config.prixarmeab2}, true, { -- bouton du menu armes blanches
-                        onActive = function()
-                            DisplayRadar(false) -- ne pas afficher le radar pendant la camera
-                        end,
                         onSelected = function() -- si le joueur sélectionne ce bouton
                             TriggerServerEvent('wdev:achatBatte') -- éxécuter l'event achatBatte => personnalisable dans le server.lua
                         end
