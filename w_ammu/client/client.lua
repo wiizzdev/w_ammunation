@@ -35,9 +35,7 @@ armesl.Display.Glare = false -- afficher la planète sur la bannière armes lét
 armesb.Display.Glare = false -- afficher la planète sur la bannière armes blanches ?
 equipements.Display.Glare = false -- afficher la planète sur la bannière accessoires ?
 
-mainMenu.Closed = function() 
-    open = false 
-end
+mainMenu.Closed = function() open = false end
 
 function ammunations() -- function qui fait le menu
     if open then 
