@@ -1,7 +1,7 @@
 Config = {
+    UtiliserCarteBancaire = true,
+    NomItemCarte = 'cartebancaire',
     Ammunation = {
-        UtiliserCarteBancaire = true,
-        NomItemCarte = 'cartebancaire',
         ActiverLetale = true,
         ActiverBlanche = true,
         ActiverAccess = true,
