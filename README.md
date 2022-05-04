@@ -5,7 +5,7 @@ Ammunation / RageUI v2 / Optimisé 0.00ms / Full Configurable
 
 #### Ancienne Preview : https://www.youtube.com/watch?v=gXQmytzTfA0
 
-- Chargeur de munitions en item
+- Chargeur en item
 - Gilet Pare-Balles en item
 - Configuration facile
 
