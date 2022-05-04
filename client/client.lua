@@ -15,10 +15,10 @@ local mainMenu = RageUI.CreateMenu("", "Ammunation",0,0,"w_ammu", "ammubanner")
 local armesl = RageUI.CreateSubMenu(mainMenu, "", "Armes Létale")
 local armesb = RageUI.CreateSubMenu(mainMenu, "", "Armes Blanche")
 local access = RageUI.CreateSubMenu(mainMenu, "", "Accessoires")
-local payement = RageUI.CreateSubMenu(mainMenu, "", "Méthode de Payement")
+local paiement = RageUI.CreateSubMenu(mainMenu, "", "Méthode de Paiement")
 local open = false
 
-mainMenu.Display.Glare,armesl.Display.Glare,armesb.Display.Glare,access.Display.Glare,payement.Display.Glare = false,false,false,false,false
+mainMenu.Display.Glare,armesl.Display.Glare,armesb.Display.Glare,access.Display.Glare,paiement.Display.Glare = false,false,false,false,false
 
 mainMenu.Closed = function() open = false end 
 
@@ -62,7 +62,7 @@ function Ammunation()
                                     if not confirmation then joueuraunecarte = false else joueuraunecarte = true end
                                 end)
                             end
-                        }, payement)
+                        }, paiement)
                     end
                 end)
                 RageUI.IsVisible(armesb, function()
@@ -76,7 +76,7 @@ function Ammunation()
                                     if not confirmation then joueuraunecarte = false else joueuraunecarte = true end
                                 end)
                             end
-                        }, payement)
+                        }, paiement)
                     end
                 end)
                 RageUI.IsVisible(access, function()
@@ -90,10 +90,10 @@ function Ammunation()
                                     if not confirmation then joueuraunecarte = false else joueuraunecarte = true end
                                 end)
                             end
-                        }, payement)
+                        }, paiement)
                     end
                 end)
-                RageUI.IsVisible(payement, function()
+                RageUI.IsVisible(paiement, function()
                     RageUI.Button("Payer en ~g~Liquide", nil, {RightLabel = "→"}, true, {
                         onSelected = function() 
                             liquide = true
