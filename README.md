@@ -5,7 +5,9 @@ Ammunation / RageUI v2 / Optimisé 0.00ms / Full Configurable
 
 #### Ancienne Preview : https://www.youtube.com/watch?v=gXQmytzTfA0
 
---> Les 9 ammunation du jeu sont tous pré-configurés !
+- Chargeur de muntions en item
+- Gilet Pare-Balles en item
+- Configuration facile
 
 ### Screenshot :
 
