@@ -3,7 +3,7 @@ Ammunation / RageUI v2 / Optimisé 0.00ms / Full Configurable
 
 #### Discord : https://discord.gg/VpYP58ZjmD
 
-#### Preview : https://www.youtube.com/watch?v=gXQmytzTfA0
+#### Ancienne Preview : https://www.youtube.com/watch?v=gXQmytzTfA0
 
 --> Les 9 ammunation du jeu sont tous pré-configurés !
 
