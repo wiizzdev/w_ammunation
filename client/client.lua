@@ -9,8 +9,6 @@ Citizen.CreateThread(function()
     end
 end)
 
--- MENU AMMUNATION
-
 local mainMenu = RageUI.CreateMenu("", "Ammunation",0,0,"w_ammu", "ammubanner")
 local armesl = RageUI.CreateSubMenu(mainMenu, "", "Armes Létale")
 local armesb = RageUI.CreateSubMenu(mainMenu, "", "Armes Blanche")
