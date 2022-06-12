@@ -5,10 +5,10 @@ Citizen.CreateThread(function()
 	end
 end)
 
-local mainMenu = RageUI.CreateMenu("", "Ammunation", 0, 0, "commonmenu", "ammubanner")
-local letale = RageUI.CreateSubMenu(mainMenu, "", "Armes Létale")
-local blanche = RageUI.CreateSubMenu(mainMenu, "", "Armes Blanche")
-local equipement = RageUI.CreateSubMenu(mainMenu, "", "Équipement")
+local mainMenu = RageUI.CreateMenu("Ammunation", "MENU")
+local letale = RageUI.CreateSubMenu(mainMenu, "Armes Létale", "MENU")
+local blanche = RageUI.CreateSubMenu(mainMenu, "Armes Blanche", "MENU")
+local equipement = RageUI.CreateSubMenu(mainMenu, "Équipement", "MENU")
 local open,Index = false,1
 
 mainMenu.Closed = function() open = false end
