@@ -1,4 +1,4 @@
-INSERT INTO `items` (name, label) VALUES
+INSERT INTO `items` (`name`, `label`) VALUES
     ('clip', 'Chargeur'),
     ('kevlar', 'Kevlar')
 ;
