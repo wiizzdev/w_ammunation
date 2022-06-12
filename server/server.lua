@@ -18,7 +18,7 @@ AddEventHandler('ammunation:achat_weapon', function(name, price, liquide)
     else
         if xMoneyB >= price then
             xPlayer.removeAccountMoney('bank', price)
-            xPlayer.addWeapon(name, 1)
+            xPlayer.addWeapon(name, 150)
             TriggerClientEvent('esx:showNotification', source, "Vous avez payé ~b~"..price.."$")
         else
             TriggerClientEvent('esx:showNotification', source, "~r~Vous n'avez pas assez d'argent")
